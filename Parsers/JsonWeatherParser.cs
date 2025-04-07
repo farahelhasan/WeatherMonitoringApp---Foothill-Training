@@ -17,5 +17,9 @@ namespace WeatherMonitoringApp.Parsers
 
             return new WeatherData(location, temperature, humidity);
         }
+        public bool CanParse(string input)
+        {
+            return input.TrimStart().StartsWith("{");
+        }
     }
 }
