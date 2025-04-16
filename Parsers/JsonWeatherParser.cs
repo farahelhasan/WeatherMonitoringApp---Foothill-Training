@@ -4,7 +4,7 @@ using WeatherMonitoringApp.Models;
 
 namespace WeatherMonitoringApp.Parsers
 {
-    class JsonWeatherParser : IWeatherDataParser
+    public class JsonWeatherParser : IWeatherDataParser
     {
         public WeatherData Parse(string input)
         {

@@ -2,7 +2,7 @@
 
 namespace WeatherMonitoringApp.Bots
 {
-    interface IBot
+    public interface IBot
     {
         string BotName { get; }
         bool IsEnabled { get; }

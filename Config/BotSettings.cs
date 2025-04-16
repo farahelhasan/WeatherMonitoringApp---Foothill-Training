@@ -2,7 +2,7 @@
 
 namespace WeatherMonitoringApp.Config
 {
-    class BotSettings
+    public class BotSettings
     {
         public BotConfiguration RainBot { get; set; }
         public BotConfiguration SunBot { get; set; }
