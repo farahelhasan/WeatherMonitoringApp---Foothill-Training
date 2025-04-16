@@ -2,7 +2,7 @@
 
 namespace WeatherMonitoringApp.Bots
 {
-    class RainBot : IBot
+    public class RainBot : IBot
     {
         private string _message;
 

@@ -2,7 +2,7 @@
 
 namespace WeatherMonitoringApp.Config
 {
-    class ConfigLoader
+    public class ConfigLoader
     {
         public static BotSettings Load(string path)
         {

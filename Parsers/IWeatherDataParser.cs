@@ -3,7 +3,7 @@ using WeatherMonitoringApp.Models;
 
 namespace WeatherMonitoringApp.Parsers
 {
-    interface IWeatherDataParser
+    public interface IWeatherDataParser
     {
         WeatherData Parse(string input);
         bool CanParse(string input);

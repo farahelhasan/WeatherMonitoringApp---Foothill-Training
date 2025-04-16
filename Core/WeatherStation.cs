@@ -3,7 +3,7 @@ using WeatherMonitoringApp.Models;
 
 namespace WeatherMonitoringApp.Core
 {
-    class WeatherStation
+    public class WeatherStation
     {
         private List<IBot> _observers = new();
 
